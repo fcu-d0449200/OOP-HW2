@@ -11,6 +11,13 @@ public class Execrcise3 {
 		String string1=StringComparator.next();
 		System.out.println("Enter a string 2: ");
 		String string2=StringComparator.next();
+		
+		if(string1.compareToIgnoreCase(string2)==0){
+			System.out.println("The two strings are the same.");
+		}
+		else{
+			System.out.println("The two strings are not the same.");
+		}
 	}
 
 }

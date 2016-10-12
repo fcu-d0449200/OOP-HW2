@@ -9,7 +9,7 @@ public class Execrcise1 {
         System.out.println("Enter a integer:");
         int integer=keyboard.nextInt();
         
-        System.out.println("Enter a float point number:");
+        System.out.println("Enter a float point number:"); 
         float point=keyboard.nextFloat();
         
         System.out.println("Enter a you name:");
